@@ -81,6 +81,11 @@
     padding: 20px;
 }
 
+#info{
+    display: flex;
+    justify-content: space-between;
+}
+
 #info h1{
     padding-bottom: 20px;
 }
@@ -336,7 +341,6 @@
     border-radius: 10px;
 }
 
-/* Dark background that covers the whole screen */
 #modalOverlay {
     position: fixed;
     top: 0; 
@@ -348,7 +352,7 @@
     justify-content: center; 
     align-items: center;
 }
-/* Style for the inner white window box */
+
 .box {
     background: white; 
     padding: 10px; 
@@ -366,4 +370,17 @@
 
 .hidden { 
     display: none; 
+}
+
+#a ul{
+    list-style-type: none;
+}
+
+#img{
+    width: 30vw;
+    height: 15vw;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: #303841 solid 5px;
+    border-radius: 5px;
 }
