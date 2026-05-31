@@ -12,17 +12,16 @@
     <body>
         <div>
         <ul id="nav">
-            <li><a>Home</a></li>
-            <li><a>Interests</a></li>
-            <li><a>Skills</a></li>
-            <li><a>Future</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#outside">Attendence</a></li>
+            <li><a href="#rem">Reminders</a></li>
+            <li><a href="#grades">Grades</a></li>
         </ul>
         </div>
         <div id="background">
             <div id="home" class="item">
                 <div id="info" class="content">
-                    <h1><a>Welcome to your Dashboard</a><br> Mafaaz Mohammed K</h1>
+                    <h1>Welcome to your Dashboard<br> <a>Mafaaz Mohammed K</a></h1>
                     <h2>User Information,</h2>
                     <p>Age: 18 <br> University: Vellore Institute of Technology <br> Course: Computer Science and Engineering</p>
                 </div>
@@ -52,8 +51,173 @@
                     </table>
                 </div>
             </div>
-            <div id="attendence" class="item"></div>
-            <div id="rem" class="item"></div>
+            <div id="outside" class="item">
+                    <h1>Attendance,</h1>
+                    <div id="attendence">
+                    <div id="dsa" class="att">
+                        <h2>Data Structures and Algorithms</h2>
+                        <div class="attcontent">
+                            <div id="dsabar" class="bar">54%</div>
+                            <table id="dsatoggle" class="toggle">
+                                <tr>
+                                    <td class="-"><button id="dsaatt-">-</button></td>
+                                    <td class="t">Attended</td>
+                                    <td class="+"><button id="dsaatt+">+</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="-"><button id="dsabs-">-</button></td>
+                                    <td class="t">Absent</td>
+                                    <td class="+"><button id="dsabs+">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="os" class="att">
+                        <h2>Operating Systems</h2>
+                        <div class="attcontent">
+                            <div id="osbar" class="bar">75%</div>
+                            <table id="ostoggle" class="toggle">
+                                <tr>
+                                    <td class="-"><button id="osatt-">-</button></td>
+                                    <td class="t">Attended</td>
+                                    <td class="+"><button id="osatt+">+</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="-"><button id="osabs-">-</button></td>
+                                    <td class="t">Absent</td>
+                                    <td class="+"><button id="osabs+">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="cn" class="att">
+                        <h2>Computer Networks</h2>
+                        <div class="attcontent">
+                            <div id="cnbar" class="bar">60%</div>
+                            <table id="cntoggle" class="toggle">
+                                <tr>
+                                    <td class="-"><button id="cnatt-">-</button></td>
+                                    <td class="t">Attended</td>
+                                    <td class="+"><button id="cnatt+">+</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="-"><button id="cnabs-">-</button></td>
+                                    <td class="t">Absent</td>
+                                    <td class="+"><button id="cnabs+">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="dbms" class="att">
+                        <h2>Database Management Systems</h2>
+                        <div class="attcontent">
+                            <div id="dbmsbar" class="bar">80%</div>
+                            <table id="dbmstoggle" class="toggle">
+                                <tr>
+                                    <td class="-"><button id="dbmsatt-">-</button></td>
+                                    <td class="t">Attended</td>
+                                    <td class="+"><button id="dbmsatt+">+</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="-"><button id="dbmsabs-">-</button></td>
+                                    <td class="t">Absent</td>
+                                    <td class="+"><button id="dbmsabs+">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div id="rem" class="item">
+                <h1>Upcoming Events</h1>
+                <h2>Current Date: </h2>
+                <div id="remc" class="content">
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">4</td>
+                            </tr>
+                            <tr>
+                                <td>June</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Data Structures and Algorithms - Assignment 2 Due</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">11</td>
+                            </tr>
+                            <tr>
+                                <td>June</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Computer Networks - Quiz 3</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">13</td>
+                            </tr>
+                            <tr>
+                                <td>June</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Data Structures and Algorithms - Assignment 3 Due</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">18</td>
+                            </tr>
+                            <tr>
+                                <td>June</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Operating Systems - Assignment 3 Due</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">28</td>
+                            </tr>
+                            <tr>
+                                <td>June</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Database Management Systems - Group Seminar</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                    <div class="nsubitem">
+                        <table>
+                            <tr>
+                                <td class="date">2</td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                            </tr>
+                        </table>
+                        <ul>
+                            <li>Data Structures and Algorithms - Quiz 3</li>
+                            <li>NIL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div id="grades" class="item"></div>
         </div>
     </body>
