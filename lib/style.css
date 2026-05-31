@@ -44,6 +44,8 @@
     gap: 5px;
     margin-left: 0px;
     margin-top: 20px;
+    left: 0;
+    overflow: hidden;
 }
 
 .item{
@@ -92,10 +94,10 @@
 }
 
 #classes{
-    width: 97%;
+    width: 95%;
     height: 280px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-bottom: 20px;
     border: #303841 solid 1px;
     border-radius: 20px;
@@ -108,6 +110,7 @@
 #classes table{
     color: black;
     padding-right: 10px;
+    margin-right: 10px;
     
 }
 
@@ -252,4 +255,57 @@
 
 .date{
     font-size: 3rem;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+    background-color: #303841;
+    border-radius: 20px;
+}
+
+.add{
+    background-color: #FF5722;
+    color: black;
+    padding: 15px;
+    border-radius: 100px;
+    margin-left: 200px;
+    max-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+#grades ul{
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+#grades ul li{
+    padding: 10px;
+}
+
+.gcont{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.show{
+    background-color: #F5F5F5;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: large;
 }
